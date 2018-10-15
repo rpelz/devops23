@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 IMAGE_NAME=devops23
-CONTAINER_NAME=$IMAGE_NAME-test
 PORT=8000
+
+CONTAINER_NAME=$IMAGE_NAME-test
 
 docker build --rm -t $IMAGE_NAME .
 
